@@ -48,18 +48,21 @@ body {
     height: 100px;
 
 }
-.home{
+
+.home {
     padding-right: 600px;
     font-size: 25px;
     color: black;
 }
-.cab-img{
+
+.cab-img {
     display: flex;
     gap: 20px;
     padding-inline: 70px;
 
 }
-.login{
+
+.login {
     padding-left: 20px;
 }
 
@@ -176,17 +179,18 @@ p {
 
 }
 
-.text-inicio{
+.text-inicio {
     text-decoration: none;
     font-size: 25px;
 }
-.inicio { 
+
+.inicio {
     padding-bottom: 0px;
     padding-right: 0px;
     padding: 15px;
     display: flex;
     align-items: center;
-    border-right: 1px solid rgb(184, 184, 184);  
+    border-right: 1px solid rgb(184, 184, 184);
 }
 
 #corpo2 .center-text {
@@ -212,7 +216,7 @@ td {
 
 
 .azul {
-    color: blue;
+    color: rgb(142, 75, 187);
 }
 
 .branco {
@@ -355,22 +359,180 @@ span {
 
 /* isso eh fim do gride */
 
-/*css login*/
+/*css finanças*/
 
-.login{
-    background-color: #8C52FF;
+.financas {
+    background-image: url(img/financas.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    position: relative;
+    margin-top: 50px;
+    color: white;
+    width: 992px;
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+
+
+#educacao {
+    font-size: 50px;
+    font-family: 'FuturaWeb';
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    text-align: center;
+
+    margin-top: 40px;
+
+}
+
+#texto1 {
+    text-align: center;
+    width: 1000px;
+    height: 900px;
+    margin-left: 100px;
+}
+
+#textoeduk {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+#video {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#dicas{
+    display: flex;
+    margin: 100px;
+
+}
+
+#dicas .card{
+    width: 200px;
+    height: 50px;
+}
+
+.cardasia{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 10px;
+    width: 260px;
+    height: 200px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+/* css login/*
+
+
+aqui vai ficar o login
+
+
+
+/*fim css loguin */
+
+
+
+
+/* css graficos*/
+#crp {
+    height: 1000px;
+    
+    display: table-column;
+}
+
+#mardoce {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-left: 70px;
+    
+
+}
+
+
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 10px;
+    border-radius: 20px;
+    width: 220px;
+    
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
 }
 
 
 
 
 
-/* css login*/
 
 
 
-/* css graficos*/
 
 
 
-/* css grafico*/
+
+#chartdiv{
+    width: 1300px;
+    height: 500px;
+}
+
+
+/*fim css grafico*/
+
+/*estilo tabela DRE*/
+table,
+th,
+td {
+    border: 1px solid;
+    width: 950px;
+    height: 70px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#drecabeca {
+    text-align: center;
+}
+
+/*fimDRE*/
+
+/*inicio cadastro*/
+#cadastr {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+/*fim cadastro*/
